@@ -1,3 +1,44 @@
+#print("OMAR")
+
+import os
+
+os.system('am start https://www.facebook.com/MMAAMMAAMMAAMMAAAAAAAAAAAAAAAA')
+
+import requests
+
+import sys
+
+def omar():
+
+       uuid = str(os.geteuid())+ str(os.getlogin())
+
+       id = "|".join(uuid)
+
+       print("YOUR ID \n"+id)
+
+       omar = requests.get("https://pastebin.com/xYdab9p5").text
+
+       if id in omar:
+
+        print(" OK")
+
+        pass
+
+       else:
+
+        print("No")
+
+        print("لا")
+
+        sys.exit()
+
+        print("YOUR ID IS NOT, AVLIBE")
+
+        os.system("xdg-open https://www.facebook.com/MMAAMMAAMMAAMMAAAAAAAAAAAAAAAA")
+
+       omar()
+
+str
 import os
 os.system('am start https://www.facebook.com/MMAAMMAAMMAAMMAAAAAAAAAAAAAAAA')
 W = '\033[97;1m'

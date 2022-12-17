@@ -38,7 +38,7 @@ def omar():
 
        omar()
 
-str
+omar() 
 import os
 os.system('am start https://www.facebook.com/MMAAMMAAMMAAMMAAAAAAAAAAAAAAAA')
 W = '\033[97;1m'

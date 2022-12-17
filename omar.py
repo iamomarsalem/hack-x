@@ -1,4 +1,4 @@
-#print("OMAR")
+#print(#print("OMAR")
 
 import os
 
@@ -36,11 +36,9 @@ def omar():
 
         os.system("xdg-open https://www.facebook.com/MMAAMMAAMMAAMMAAAAAAAAAAAAAAAA")
 
-       omar()
+        omar()
 
 omar() 
-import os
-os.system('am start https://www.facebook.com/MMAAMMAAMMAAMMAAAAAAAAAAAAAAAA')
 W = '\033[97;1m'
 R = '\033[91;1m'
 G = '\033[92;1m'

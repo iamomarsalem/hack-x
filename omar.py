@@ -16,7 +16,7 @@ def omar():
 
        print("YOUR ID \n"+id)
 
-       omar = requests.get("https://pastebin.com/xYdab9p5").text
+       omar = requests.get("https://pastebin.com/LukC76uF").text
 
        if id in omar:
 
